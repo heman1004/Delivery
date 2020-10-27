@@ -22,7 +22,7 @@ spec:
           volumeMounts:
             - name: config-profile
               mountPath: /tmp/config
-          volumes:
-            - name: config-profile
-              configMap:
-                name: hello-cm
+       volumes:
+         - name: config-profile
+           configMap:
+             name: hello-cm
