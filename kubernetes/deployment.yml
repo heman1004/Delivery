@@ -25,4 +25,4 @@ spec:
           volumes:
             - name: config-profile
               configMap:
-              name: hello-cm
+                name: hello-cm
